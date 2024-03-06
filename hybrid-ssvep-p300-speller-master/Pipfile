@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+psychopy = "*"
+mne = "*"
+beeply = "*"
+scikit-learn = "*"
+torch = "*"
+brainflow = "*"
+pyqt5 = "==5.15.7"
+pyqt5-qt5 = "==5.15.2"
+pyqt5-sip = "==12.11.0"
+pyqtgraph = "==0.12.4"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.8"
