@@ -39,7 +39,7 @@ epoch_frames = int(EPOCH_DURATION * refresh_rate)
 print("Epoch frames ==>",epoch_frames)
 iti_frames = int(ITI_DURATION * refresh_rate)
 iti_frames_cal = int(0.8 * refresh_rate)
-cue_frames = int(CUE_DURATION * refresh_rate)   
+cue_frames = int(CUE_DURATION * refresh_rate)
 
 #Presentation content
 

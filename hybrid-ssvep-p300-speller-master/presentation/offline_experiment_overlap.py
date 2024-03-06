@@ -136,7 +136,7 @@ def flicker(board):
                 window.flip()
 
         frames = 0
-        #flicker random sequence of each speller parallely
+        # flicker random sequence of each speller parallely
         # runInParallel(flicker_subspeller(randomized_subspeller[1]), flicker_subspeller(randomized_subspeller[2]), flicker_subspeller(randomized_subspeller[3]),flicker_subspeller(randomized_subspeller[4]))
         eegMarking(board, MARKERS['trial_start'])
         
@@ -146,6 +146,8 @@ def flicker(board):
         # n: number of sub-speller
         # m: is each character in the sub speller
         # f: is frame_idx
+        
+        print("test Pushing Github")
         timeline = gen_timeline(n=6, m=9, overlap=0.5, isShuffle=True)
         marked:bool = False
         for t_idx in range(timeline.shape[2]):
